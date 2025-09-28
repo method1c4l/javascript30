@@ -1,0 +1,49 @@
+html,
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/drum-kit/assets/img/background.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.key {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .6);
+    border: 3px solid #000;
+    border-radius: 5px;
+    width: 90px;
+    height: 70px;
+    transition: all .07s;
+    margin: 10px;
+}
+
+kbd {
+    color: #fff;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sound {
+    color: #ffc600;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
