@@ -1,0 +1,11 @@
+#main {
+    font-size: 30px;
+    text-align: center;
+}
+
+#message {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+}
